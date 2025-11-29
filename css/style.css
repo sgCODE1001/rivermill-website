@@ -1,10 +1,10 @@
-/********** Template CSS - Brown & Beige Theme **********/
+/********** Template CSS **********/
 :root {
-    --primary: #8B6F47;        /* Warm Brown */
-    --secondary: #CD853F;      /* Peru/Golden Brown */
-    --tertiary: #5D4E37;       /* Dark Taupe */
-    --light: #F5EFE7;          /* Cream/Beige */
-    --dark: #3E2723;           /* Dark Brown */
+    --primary: #355EFC;
+    --secondary: #E93C05;
+    --tertiary: #555555;
+    --light: #DFE4FD;
+    --dark: #011A41;
 }
 
 .back-to-top {
@@ -99,7 +99,7 @@ h6,
 
 .top-bar {
     height: 45px;
-    border-bottom: 1px solid rgba(139, 111, 71, .07);
+    border-bottom: 1px solid rgba(53, 94, 252, .07);
 }
 
 .navbar .dropdown-toggle::after {
@@ -251,7 +251,7 @@ h6,
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(245, 239, 231, .5);
+    background: rgba(255, 255, 255, .5);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -348,7 +348,7 @@ h6,
 
 .copyright {
     color: var(--light);
-    background: #2A1810;
+    background: #000B1C;
 }
 
 .copyright a {
@@ -356,5 +356,5 @@ h6,
 }
 
 .copyright a:hover {
-    color: var(--secondary);
+    color: var(--primary);
 }
