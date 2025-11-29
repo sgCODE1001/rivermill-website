@@ -231,6 +231,44 @@
         }
 
         @media (max-width: 768px) {
+            nav {
+                padding: 1rem;
+            }
+
+            .nav-left {
+                flex-direction: column;
+                align-items: flex-start;
+                margin-right: 0;
+                gap: 1rem;
+                width: 100%;
+            }
+
+            .logo {
+                font-size: 1.2rem;
+            }
+
+            .logo img {
+                height: 45px;
+            }
+
+            .contact-info {
+                margin-left: 0;
+                flex-direction: column;
+                gap: 0.5rem;
+                font-size: 0.85rem;
+            }
+
+            .nav-links {
+                width: 100%;
+                justify-content: center;
+                gap: 1rem;
+                flex-wrap: wrap;
+            }
+
+            .hero {
+                padding: 4rem 1.5rem;
+            }
+
             .hero h1 {
                 font-size: 2rem;
             }
@@ -239,14 +277,49 @@
                 font-size: 1rem;
             }
 
-            .nav-links {
-                gap: 1rem;
-                flex-wrap: wrap;
-                justify-content: center;
+            .section {
+                margin: 2rem auto;
+                padding: 0 1.5rem;
             }
 
             .section-title {
                 font-size: 2rem;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .team-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .logo {
+                font-size: 1rem;
+            }
+
+            .logo img {
+                height: 40px;
+            }
+
+            .hero h1 {
+                font-size: 1.5rem;
+            }
+
+            .hero p {
+                font-size: 0.9rem;
+            }
+
+            .section-title {
+                font-size: 1.75rem;
+            }
+
+            .nav-links {
+                font-size: 0.9rem;
             }
         }
     </style>
